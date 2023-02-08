@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <h1>Create your account</h1>
+    <form action="mailto:rionimo5@gamil.com"method="post">
+        <label for="text">Your Name:</label>
+        <input type="text"id="text" placeholder="Your full name"> <br><br>
+        <label for="email">Email:</label>
+        <input type="text"id="email" placeholder="Your valid mail"><br><br>
+        <label for="password">Password:</label>
+        <input type="text"id="password" placeholder="select a strong password"><br> <br>
+        <label for="clr"> Color:</label>
+        <input type="color" id="clr">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date"><br><br>
+        <label for="file">Photos:</label>
+        <input type="file" id="file"><br><br>
+        <span>Gender:</span>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="fml" >Female</label>
+        <input type="radio" id="fml" name="gender"><br><br>
+        <label for="int">Work Interest:</label>
+        <input type="range" id="int"><br><br>
+        <label for="chk"> I love coding</label>
+        <input type="checkbox" id="chk"name="box" id="">
+        <label for="chk1"> I hate coding</label>
+        <input type="checkbox" id="chk1"name="box" id=""> <br><br>
+        <div>
+            <label for="code">Phone Number:</label>
+            <select name="code" id="code">
+                <option value="+880">+880</option>
+                <option value="+990">+990</option>
+                <option value="+110">+110</option>
+            </select>
+            <input type="code" id="code"placeholder="+880" required>
+        </div><br>
+        <span>
+            <label for="con">Country:</label>
+            <select name="country" id="con">
+                <option value="BD">BD</option>
+                <option value="IND">IND</option>
+                <option value="CND">CND</option>
+            </select>
+            <input type="country" id="con"placeholder="Bangladesh" required>
+        </span><br><br>
+        <Label for="cmt">Do Comments:</Label>
+        <textarea name="comment" id="cmt" cols="30" rows="1"></textarea><br><br>
+        <button type="reset"> reset</button>
+        <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
